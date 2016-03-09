@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-es2015-loose-ie8",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Babel 6 preset-es2015 enable loose mode and adapt ie8.",
   "authors": [
     "Calefy <clfsw0201@gmail.com>"
@@ -17,7 +17,7 @@
   },
   "peerDependencies": {
     "babel-preset-es2015": "*",
-    "babel-plugin-transform-es2015-ie8-classes": "^0.1.7"
+    "babel-plugin-transform-es2015-ie8-classes": "^0.1.8"
   },
   "devDependencies": {
     "babel-preset-es2015": "^6.3.13",

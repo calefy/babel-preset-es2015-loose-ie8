@@ -1,14 +1,13 @@
 {
-  "name": "babel-preset-es2015-loose",
-  "version": "7.0.0",
-  "description": "Babel preset for all es2015 plugins, with loose mode enabled where available.",
+  "name": "babel-preset-es2015-loose-ie8",
+  "version": "0.0.1",
+  "description": "Babel 6 preset-es2015 enable loose mode and adapt ie8.",
   "authors": [
-    "Brandon Konkle <brandon@konkle.us>",
-    "Jason Miller <jason@developit.ca>"
+    "Calefy <clfsw0201@gmail.com>"
   ],
   "homepage": "https://babeljs.io/",
   "license": "MIT",
-  "repository": "https://github.com/bkonkle/babel-preset-es2015-loose",
+  "repository": "https://github.com/calefy/babel-preset-es2015-loose-ie8",
   "main": "index.js",
   "scripts": {
     "test": "node ./test | tap-spec"
@@ -17,7 +16,8 @@
     "modify-babel-preset": "^1.0.0"
   },
   "peerDependencies": {
-    "babel-preset-es2015": "*"
+    "babel-preset-es2015": "*",
+    "babel-plugin-transform-es2015-ie8-classes": "^0.1.5"
   },
   "devDependencies": {
     "babel-preset-es2015": "^6.3.13",

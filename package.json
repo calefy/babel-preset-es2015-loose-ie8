@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-es2015-loose-ie8",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Babel 6 preset-es2015 enable loose mode and adapt ie8.",
   "authors": [
     "Calefy <clfsw0201@gmail.com>"
